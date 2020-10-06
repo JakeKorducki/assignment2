@@ -1,0 +1,41 @@
+1.) On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        docs/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2.) 8, git rev-list --all --count
+
+3.) Date:   Mon Sep 28 15:32:11 2020 -0400,  git log README.md
+
+4.) Git branches help make dividing up work easier into smaller tasks and makes project tracking easier.
+    Git branches also don't require the use of storage / memory overhead.
+
+5.) Git log is used for reading through commited work and the project / file's entire history, while
+    git status only will display information about the current staging area and information about files
+    ready to be added and commited. 
+
+6.) git log Vehicle.h , will show you the commits of file Vehicle.h.
+
+7.) Use command: git log --grep="file" .
+
+8.) Inheritance is when a class adopts the properties of another class.
+    Polymorphism is the ability for an object to do different things based upon what it is acting upon.
+    Encapsulation is the concept of hiding data from other data structures in OOP. Examples of encapsulation
+    are private, protected and public.
+
+9.) The main difference between the "Dictator and Lieutenants" and "Integration Manager" workflows is in the
+    Integration Manager workflow, the developer's push their changes to a public repository, which is accessible to
+    the Integration Manager. Whereas in the Dictator and Lieutenants workflow the developers push directly to an
+    assigned Lieutenant repository and it is further passed on to a Dictator, who is the only one who can interact with
+    the Blessed Repository.
+
+10.)With 100 developers it would be a lot easier to manage the changes with a hierarchy of lieutenants co-operating 
+    together and sending their changes to a dictator to be passed onto the Blessed Repository. Other than 100 
+    developers pushing their changes in an unsynchronized way to the same Blessed Repository, all at random times,
+    making for a very disorganized workflow.
+
